@@ -1,7 +1,7 @@
 # SO-t1
 ## **Interprocess Communication**
 
-Implementar Quatro (ou mais) dos seguintes algoritmos apresentados em aula:
+#### Implementar Quatro (ou mais) dos seguintes algoritmos apresentados em aula:
     1 - FCFS
     2 - SJF
     3 - Round-Robin
@@ -9,10 +9,10 @@ Implementar Quatro (ou mais) dos seguintes algoritmos apresentados em aula:
     5 - Loteria
     6 - Múltiplas filas
 
-Cenário:
+#### Cenário:
 Deve-se ter um servidor que recebe requisições de 100 clientes. Cada cliente envia um número k (entre 1 e 10.000, definido aleatoriamente), onde o servidor recebe a requisição e devolve a soma de todos os número entre 1 e k. Por exemplo, k = 5, então tem-se que a resposta será 1+2+3+4+5=15.
 
-As seguintes regras devem ser consideradas:
+##### As seguintes regras devem ser consideradas:
     - Equipes de 3 alunos, informados na lista de email ate dia 15/04 (após essa data as equipes serão definidas aleatoriamente);
     - A forma de comunicação entre o processo cliente e o processo servidor fica a critério da equipe;
     - Restrição: ao menos dois dos algoritmos devem ser preemptivos, onde o valor do quantum fica a critério da equipe;
